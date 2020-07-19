@@ -15,3 +15,11 @@ txt = "one one was a race horse, two two was one too."
 x = txt.replace("one", "three")
 
 print(x)
+
+# Replace the two first occurrence of the word "one":
+
+txt = "one one was a race horse, two two was one too."
+
+x = txt.replace("one", "three", 2)
+
+print(x)
