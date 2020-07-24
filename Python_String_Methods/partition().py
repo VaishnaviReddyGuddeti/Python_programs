@@ -21,3 +21,12 @@ txt = "I could eat bananas all day"
 x = txt.partition("apples")
 
 print(x)
+
+# example :
+string = "arjun is good"
+# 'is' separator is found
+print(string.partition('is'))
+# 'not' separator is not found
+string = "arjun is good , isn't it"
+# splits at first occurrence of 'is'
+print(string.partition('is'))
