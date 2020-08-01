@@ -1,7 +1,5 @@
 x = True
-
-#display x:
+#display x
 print(x)
-
-#display the data type of x:
+#display the data type of x
 print(type(x))
