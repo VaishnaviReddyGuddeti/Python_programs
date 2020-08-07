@@ -7,3 +7,10 @@ print(thislist[2:5])
 
 #Remember that the first item is position 0,
 #and note that the item in position 5 is NOT included
+
+# This example returns the items from the beginning to "orange":
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
+#Remember that index 0 is the first item, and index 4 is the fifth item
+#Remember that the item in index 4 is NOT included
