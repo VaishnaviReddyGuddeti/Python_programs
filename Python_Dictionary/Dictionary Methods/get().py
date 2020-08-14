@@ -21,5 +21,6 @@ car = {
 }
 
 x = car.get("price", 15000)
-
+y = car.get("color", "black")
 print(x)
+print(y)
