@@ -9,5 +9,5 @@ print(x)
 
 # Return the number of times the "BMW K 1300 R" appears in the tuple
 thistuple = ("Royal Enfield" , "Harley Davidson" , "BMW K 1300 R" , "Maserati Quattroporte" , "BMW" , "MG Hector" , "BMW K 1300 R")
-x = thistuple.count(BMW K 1300 R)
+x = thistuple.count("BMW K 1300 R")
 print(x)
