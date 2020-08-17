@@ -11,3 +11,8 @@ x = {"apple", "banana", "cherry"}
 y = {"apple", "banana", "cherry"}
 x.difference_update(y)
 print(x)
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "tcs", "techm"}
+y.difference_update(x)
+print(y)
