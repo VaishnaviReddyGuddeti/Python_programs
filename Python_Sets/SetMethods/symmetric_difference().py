@@ -1,4 +1,4 @@
-# Removes the specified element
+# Returns a set with the symmetric differences of two sets
 # Return a set that contains all items from both sets, except items that are present in both sets:
 
 x = {"apple", "banana", "cherry"}
