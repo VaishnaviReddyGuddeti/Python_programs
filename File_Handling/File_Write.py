@@ -7,4 +7,13 @@ f.close()
 
 #open and read the file after the appending:
 f = open("demofile2.txt", "r")
+# print(f.read())
+
+# Open the file "demofile3.txt" and overwrite the content:
+f = open("demofile3.txt", "w")
+f.write("Hey is this Maserati Quattroporte")
+f.close()
+
+#open and read the file after the appending:
+f = open("demofile3.txt", "r")
 print(f.read())
